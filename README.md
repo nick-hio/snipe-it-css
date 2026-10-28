@@ -6,14 +6,15 @@ CSS redesigns for [Snipe-IT](https://github.com/snipe/snipe-it), installed throu
 
 | Theme | Style | Screenshots |
 | --- | --- | --- |
-| [Porcelain](themes/porcelain/) | Light surfaces, cobalt accents and rounded controls | [Preview](themes/porcelain/README.md#screenshots) |
+| [Porcelain](themes/porcelain/) | Light and dark modes, cobalt accents and rounded controls | [Preview](themes/porcelain/README.md#screenshots) |
 
 ## Install
 
 1. Open a theme's `custom.css` file, select **Raw**, and copy the entire file.
 2. Sign in to Snipe-IT as an administrator. Open **Settings → Branding → Custom CSS**.
 3. Back up any existing custom CSS, replace it with the theme, and save.
-4. Refresh the page. If needed, refresh without the browser cache.
+4. On the same page, enter the Branding colours from the theme's README, if it lists any, and save.
+5. Refresh the page. If needed, refresh without the browser cache.
 
 Paste the CSS directly, without a `<style>` wrapper. To remove a theme, clear the field or restore your previous CSS.
 
