@@ -18,6 +18,8 @@ CSS redesigns for [Snipe-IT](https://github.com/snipe/snipe-it), installed throu
 
 Paste the CSS directly, without a `<style>` wrapper. To remove a theme, clear the field or restore your previous CSS.
 
+Snipe-IT limits Custom CSS to 65,535 bytes and cuts longer CSS without an error. To raise the limit, see [Raise the Custom CSS size limit](docs/custom-css-size-limit.md).
+
 ## Add another redesign
 
 Keep each theme in a separate directory:
