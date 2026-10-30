@@ -6,6 +6,10 @@ A Snipe-IT redesign with light and dark modes, cobalt accents, rounded controls 
 
 Tested with **Snipe-IT v8.8.3, build 26143**, in Chromium at 390, 820, 1024 and 1440 px. Uses system sans-serif fonts (Inter when installed) and requires no application source changes. Compatibility with other versions and browsers has not been verified.
 
+## Custom CSS size limit
+
+Porcelain is larger than 65,535 bytes, the default Custom CSS limit in Snipe-IT. Snipe-IT cuts longer CSS without an error, and the theme then shows incorrectly. Raise the limit before you install Porcelain. See [Raise the Custom CSS size limit](../../docs/custom-css-size-limit.md).
+
 ## Light and dark mode
 
 Porcelain follows the mode each person selects in Snipe-IT, with the light/dark item in the user menu. If they have not selected one, it follows their operating system setting.
